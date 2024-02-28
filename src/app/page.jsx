@@ -1,6 +1,11 @@
+"use client"
+import { motion } from "framer-motion";
+
 import Image from "next/image";
 const Homepage = () => {
-  return <div className="h-full flex flex-col  lg:flex-row px-4  sm:px-8 md:px-12 lg:px-20 xl:px-30">
+  return (
+  <motion.div className="h-full" initial={{y:"-200vh"}} animate={{y:"0%"}} transition={{duration : 1}}>
+   <div className="h-full flex flex-col  lg:flex-row px-4  sm:px-8 md:px-12 lg:px-20 xl:px-30">
     {/* IMAGE CONTAINER */}
     <div className="h-1/2 lg:h-full lg:w-1/2 relative">
       <Image src="/fatimaarshad.png" alt="fatima" fill className="object-contain"/>
@@ -21,7 +26,9 @@ const Homepage = () => {
 
        </div>
       </div>
-  </div>;
+  </div>
+  </motion.div>
+  )
 };
 
 export default Homepage;
