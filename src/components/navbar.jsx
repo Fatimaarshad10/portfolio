@@ -98,7 +98,7 @@ const Navbar = () => {
           <motion.div variants={topVariants} animate={open ? "opened" : "closed"}
             className="w-10 h-1 bg-black rounded origin-left"></motion.div>
           <motion.div variants={centerVariants} animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded"></motion.div>
+            className="w-10 h-1 bg-black rounded "></motion.div>
           <motion.div variants={bottomVariants} animate={open ? "opened" : "closed"}
             className="w-10 h-1 bg-black rounded  origin-left"></motion.div>
         </button>

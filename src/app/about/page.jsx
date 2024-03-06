@@ -1,12 +1,13 @@
 "use client"
 import { motion } from "framer-motion";
-import Image from "next/image";
-
+import Extra from "../../components/Image";
+import './style.css'
 const AboutPage = () => {
+  
   return (
     <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{ y: "0%" }} transition={{ duration: 1 }}>
       {/* CONTAINER */}
-      <div className="h-full overflow-y-auto lg-flex ">
+      <div className="h-full overflow-y-auto placeholder:lg-flex ">
         {/* TEXT CONTAINER */}
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-30 flex flex-col gap-24 md:gap-32 lg:gap-38 xl:gap-39 ">
           <div className="flex  flex-row gap-40">
@@ -16,7 +17,8 @@ const AboutPage = () => {
                 Adipisci quis fugit nihil explicabo, et maiores id <br />labore cumque facere quo ipsam modi<br /></p>
               <span className="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
-            <Image src='/18383-removebg-preview.png' alt="svg" width={300} height={200} className="hidden lg:block"/>
+            <Extra/>
+            {/* <Image src='/laptop.jpg' alt="svg" width={500} height={200} className="hidden lg:block rounded"/> */}
           </div>
  {/* SKILLS CONTAINER */}
  <div className="flex flex-col gap-12 justify-center">
@@ -75,7 +77,7 @@ const AboutPage = () => {
           {/* JOB DESC */}
           <div className="p-3 text-sm italic">My current employment. Way better than the position before!</div>
           {/* JOB DATE */}
-          <div className="p-3 text-red-400 text-sm font-semibold">2023 - Present</div>
+          <div className="p-3 text-black text-sm font-semibold">2023 - Present</div>
           {/* JOB COMPANY */}
           <div className="p-1 bg-white rounded  text-sm font-semibold w-fit">NAXTECH</div>
         </div>
@@ -83,9 +85,9 @@ const AboutPage = () => {
         {/* CENTER */}
         <div className="w-1/6">
           {/* LINE */}
-          <div className="w-1 h-full bg-gray-600 rounded relative">
+          <div className="w-1 h-full bg-black rounded relative">
             {/* LINE CIRCLE */}
-            <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+            <div className="absolute w-5 h-5 rounded-full ring-4 ring-black bg-white -left-2"></div>
           </div>
         </div>
         {/* RIGHT */}
@@ -99,9 +101,9 @@ const AboutPage = () => {
         {/* CENTER */}
         <div className="w-1/6">
           {/* LINE */}
-          <div className="w-1 h-full bg-gray-600 rounded relative">
+          <div className="w-1 h-full bg-black rounded relative">
             {/* LINE CIRCLE */}
-            <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+            <div className="absolute w-5 h-5 rounded-full ring-4 ring-black bg-white -left-2"></div>
           </div>
         </div>
         {/* RIGHT */}
@@ -111,7 +113,7 @@ const AboutPage = () => {
           {/* JOB DESC */}
           <div className="p-3 text-sm italic">My current employment. Way better than the position before!</div>
           {/* JOB DATE */}
-          <div className="p-3 text-red-400 text-sm font-semibold">2023 - Present</div>
+          <div className="p-3 text-black  text-sm font-semibold">2023 - Present</div>
           {/* JOB COMPANY */}
           <div className="p-1 bg-white rounded  text-sm font-semibold w-fit">NAXTECH</div>
         </div>
@@ -124,16 +126,16 @@ const AboutPage = () => {
           {/* JOB DESC */}
           <div className="p-3 text-sm italic">My current employment. Way better than the position before!</div>
           {/* JOB DATE */}
-          <div className="p-3 text-red-400 text-sm font-semibold">2023 - Present</div>
+          <div className="p-3 text-black  text-sm font-semibold">2023 - Present</div>
           {/* JOB COMPANY */}
           <div className="p-1 bg-white rounded  text-sm font-semibold w-fit">NAXTECH</div>
         </div>
         {/* CENTER */}
         <div className="w-1/6">
           {/* LINE */}
-          <div className="w-1 h-full bg-gray-600 rounded relative">
+          <div className="w-1 h-full bg-black rounded relative">
             {/* LINE CIRCLE */}
-            <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+            <div className="absolute w-5 h-5 rounded-full ring-4 ring-black bg-white -left-2"></div>
           </div>
         </div>
         {/* RIGHT */}
