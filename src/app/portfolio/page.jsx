@@ -7,34 +7,34 @@ import Image from "next/image";
 const data = [
   {
     id: 1,
-    color: "from-blue-300 to-violet-300",
+    color: "from-black to-gray-300",
     title: "React js Medium blog",
     desc: "loreme ajdjadjbda",
-    image: "/logo.png",
+    image: "https://images.pexels.com/photos/1181269/pexels-photo-1181269.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "https://www.pexels.com"
 
   },
   {
     id: 2,
-    color: "from-violet-300 to-purple-300",
+    color: "from-gray-300 to-slate-300",
     title: "React js Medium blog",
     desc: "loreme ajdjadjbda",
-    image: "/logo.png",
+    image: "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
     link: "https://www.pexels.com"
 
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
+    color: "from-slate-300 to-black",
     title: "React js Medium blog",
     desc: "loreme ajdjadjbda",
-    image: "/logo.png",
+    image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "https://www.pexels.com"
 
   },
   {
     id: 4,
-    color: "from-violet-300 to-purple-300",
+    color: "from-bkack to-slate-300",
     title: "React js Medium blog",
     desc: "loreme ajdjadjbda",
     image: "/logo.png",
@@ -55,7 +55,7 @@ const PortfolioPage = () => {
         </div>
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
           <motion.div style={{x}}className="flex ">
-            <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300"/>
+            <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-black to-gray-400"/>
           {data.map((data) => (
             <div className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${data.color}`} key={data.id}>
               <div className="flex flex-col gap-8 text-white">
