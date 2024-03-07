@@ -9,6 +9,7 @@ const ContactPage = () => {
   const text = "Say Hello"
   const form = useRef();
 
+  
   const sendEmail = (e) => {
     e.preventDefault();
     setError(false)
