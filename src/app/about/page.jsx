@@ -114,8 +114,7 @@ I thrive on exploring new technologies by delving into   <br></br>documentation,
                   {/* JOB TITLE */}
                   <div className="p-3 bg-white font-semibold rounded-b-lg rounded-s-lg">Full Stack Trainer</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">As a full-stack developer,I've successfully trained nearly 200 students in my first batch,
-                   with a special focus on empowering women in the field.I'm currently training the second batch. This program involves engaging activities, including creating small projects from beginner to professional levels and organizing coding competitions, providing a comprehensive learning experience for the participants.
+                  <div className="p-3 text-sm italic">{`As a full-stack developer,I've successfully trained nearly 200 students in my first batch, with a special focus on empowering women in the field.I'm currently training the second batch. This program involves engaging activities, including creating small projects from beginner to professional levels and organizing coding competitions, providing a comprehensive learning experience for the participants.`}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-black  text-sm font-semibold">05/2023 - Present</div>
