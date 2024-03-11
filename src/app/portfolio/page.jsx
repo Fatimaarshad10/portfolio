@@ -7,40 +7,32 @@ import Image from "next/image";
 const data = [
   {
     id: 1,
-    color: "from-black to-gray-300",
-    title: "React js Medium blog",
-    desc: "loreme ajdjadjbda",
-    image: "https://images.pexels.com/photos/1181269/pexels-photo-1181269.jpeg?auto=compress&cs=tinysrgb&w=600",
-    link: "https://www.pexels.com"
+    color: "from-slate-200 to-stone-800",
+    title: "Deep Turing AI",
+    desc: "My main job was finding and fixing problems in frontend and backend how it looks and how it works. I really focused on getting rid of errors to make sure users have a smooth experience. By carefully fixing bugs, I made sure the website runs without any issues",
+    image: "/deep.png",
+    link: "https://deepturingai.com/"
 
   },
   {
     id: 2,
-    color: "from-gray-300 to-slate-300",
-    title: "React js Medium blog",
-    desc: "loreme ajdjadjbda",
-    image: "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    link: "https://www.pexels.com"
+    color: "from-slate-200 to-stone-800",
+    title: "HumidPeach website",
+    desc: "HumidPeach is the original website that served as inspiration for a project I created for additional practice. In my version, I expanded the functionality by incorporating an admin page. This admin page empowers users to contribute their paintings and share ideas with others. Additionally, administrators have the authority to edit or remove painting details",
+    image: "/humid.png",
+    link: "https://github.com/Fatimaarshad10/mern-website-project"
 
   },
-  {
-    id: 3,
-    color: "from-slate-300 to-black",
-    title: "React js Medium blog",
-    desc: "loreme ajdjadjbda",
-    image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600",
-    link: "https://www.pexels.com"
+  // {
+  //   id: 3,
+  //   color: "from-slate-300 to-black",
+  //   title: "React js Medium blog",
+  //   desc: "loreme ajdjadjbda",
+  //   image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600",
+  //   link: "https://www.pexels.com"
 
-  },
-  {
-    id: 4,
-    color: "from-bkack to-slate-300",
-    title: "React js Medium blog",
-    desc: "loreme ajdjadjbda",
-    image: "/logo.png",
-    link: "https://www.pexels.com"
+  // },
 
-  },
 
 ]
 const PortfolioPage = () => {
@@ -55,7 +47,7 @@ const PortfolioPage = () => {
         </div>
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
           <motion.div style={{x}}className="flex ">
-            <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-black to-gray-400"/>
+            <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-black to-gray-300"/>
           {data.map((data) => (
             <div className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${data.color}`} key={data.id}>
               <div className="flex flex-col gap-8 text-white">
@@ -84,7 +76,7 @@ const PortfolioPage = () => {
                 </defs>
                 <text fill="#000">
                   <textPath xlinkHref="#circlePath" className="text-xl">
-                    Front-end Developer and UI Designer
+                    Full-stack Developer
                   </textPath>
                 </text>
               </motion.svg>
