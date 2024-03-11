@@ -78,7 +78,7 @@ I thrive on exploring new technologies by delving into   <br></br>documentation,
                   {/* JOB TITLE */}
                   <div className="p-3 bg-white font-semibold rounded-b-lg rounded-s-lg">Backend Developer</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">{`I worked as a backend developer at NaxTech, where I gained a lot of experience with tools like Node.js and Sequelize. My job included making efficient APIs, handling databases, and working closely with the team. I also played a key role in testing applications and talking to clients from different countries to make sure our projects went smoothly.`}</div>
+                  <div className="p-3 text-sm italic">I worked as a backend developer at NaxTech, where I gained a lot of experience with tools like Node.js and Sequelize. My job included making efficient APIs, handling databases, and working closely with the team. I also played a key role in testing applications and talking to clients from different countries to make sure our projects went smoothly.</div>
                   {/* JOB DATE */}
                   <div className="p-3 text-black text-sm font-semibold">08/2023 to 02/2024</div>
                   {/* JOB COMPANY */}
@@ -114,7 +114,8 @@ I thrive on exploring new technologies by delving into   <br></br>documentation,
                   {/* JOB TITLE */}
                   <div className="p-3 bg-white font-semibold rounded-b-lg rounded-s-lg">Full Stack Trainer</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">{`As a full-stack developer,I've successfully trained nearly 200 students in my first batch, with a special focus on empowering women in the field.I'm currently training the second batch. This program involves engaging activities, including creating small projects from beginner to professional levels and organizing coding competitions, providing a comprehensive learning experience for the participants.`}
+                  <div className="p-3 text-sm italic">As a full-stack developer,I &apos;ve successfully trained nearly 200 students in my first batch,
+                   with a special focus on empowering women in the field.I &apos;m currently training the second batch. This program involves engaging activities, including creating small projects from beginner to professional levels and organizing coding competitions, providing a comprehensive learning experience for the participants.
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-black  text-sm font-semibold">05/2023 - Present</div>
