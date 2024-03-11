@@ -15,7 +15,7 @@ const Homepage = () => {
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">Full stack developer</h1>
           {/* DESC */}
-          <p className="md:text-xl ">My name is Fatima Arshad. I began learning basic coding four years ago as a computer science student. Now, as a full-stack developer, I'm skilled at solving different problems to improve your projects. I concentrate on creating websites that work well, look good on any device, and are efficient for your business goals. </p>
+          <p className="md:text-xl ">{`My name is Fatima Arshad. I began learning basic coding four years ago as a computer science student. Now, as a full-stack developer, I'm skilled at solving different problems to improve your projects. I concentrate on creating websites that work well, look good on any device, and are efficient for your business goals. `}</p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">

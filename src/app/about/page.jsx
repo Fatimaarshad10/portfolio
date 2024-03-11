@@ -78,7 +78,7 @@ I thrive on exploring new technologies by delving into   <br></br>documentation,
                   {/* JOB TITLE */}
                   <div className="p-3 bg-white font-semibold rounded-b-lg rounded-s-lg">Backend Developer</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">I worked as a backend developer at NaxTech, where I gained a lot of experience with tools like Node.js and Sequelize. My job included making efficient APIs, handling databases, and working closely with the team. I also played a key role in testing applications and talking to clients from different countries to make sure our projects went smoothly.</div>
+                  <div className="p-3 text-sm italic">{`I worked as a backend developer at NaxTech, where I gained a lot of experience with tools like Node.js and Sequelize. My job included making efficient APIs, handling databases, and working closely with the team. I also played a key role in testing applications and talking to clients from different countries to make sure our projects went smoothly.`}</div>
                   {/* JOB DATE */}
                   <div className="p-3 text-black text-sm font-semibold">08/2023 to 02/2024</div>
                   {/* JOB COMPANY */}
